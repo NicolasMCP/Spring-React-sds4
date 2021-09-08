@@ -14,7 +14,7 @@ const DataTable = () => {
                 <tbody>
                 <tr>
                         <td>22/04/2021</td>
-                        <td>Alejandra de Tal</td>
+                        <td>Alexandra Ortiz</td>
                         <td>22</td>
                         <td>12</td>
                         <td>5017.00</td>
@@ -24,14 +24,7 @@ const DataTable = () => {
                         <td>Nícolas Ramos</td>
                         <td>34</td>
                         <td>25</td>
-                        <td>15017.00</td>
-                    </tr>
-                    <tr>
-                        <td>22/04/2021</td>
-                        <td>Mengano de Tal</td>
-                        <td>43</td>
-                        <td>30</td>
-                        <td>54000.00</td>
+                        <td>45961.00</td>
                     </tr>
                     <tr>
                         <td>22/04/2021</td>
@@ -42,17 +35,10 @@ const DataTable = () => {
                     </tr>
                     <tr>
                         <td>22/04/2021</td>
-                        <td>Antônio de Souza</td>
-                        <td>83</td>
-                        <td>2</td>
-                        <td>1020.00</td>
-                    </tr>
-                    <tr>
-                        <td>22/04/2021</td>
                         <td>Manoel Alcantara</td>
                         <td>12</td>
                         <td>7</td>
-                        <td>150000.00</td>
+                        <td>60000.00</td>
                     </tr>
                     <tr>
                         <td>22/04/2021</td>
@@ -73,7 +59,7 @@ const DataTable = () => {
                         <td>Cristiano Müller</td>
                         <td>62</td>
                         <td>41</td>
-                        <td>76023.00</td>
+                        <td>46023.00</td>
                     </tr>
                     <tr>
                         <td>22/04/2021</td>
