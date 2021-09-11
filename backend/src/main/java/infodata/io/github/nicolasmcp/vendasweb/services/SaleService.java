@@ -1,5 +1,7 @@
 package infodata.io.github.nicolasmcp.vendasweb.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -7,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import infodata.io.github.nicolasmcp.vendasweb.dto.SaleDTO;
+import infodata.io.github.nicolasmcp.vendasweb.dto.SaleSumDTO;
 import infodata.io.github.nicolasmcp.vendasweb.entities.Sale;
 import infodata.io.github.nicolasmcp.vendasweb.repositories.SaleRepository;
 import infodata.io.github.nicolasmcp.vendasweb.repositories.SellerRepository;
@@ -25,6 +28,11 @@ public class SaleService {
 		sellerRepository.findAll();					// Ver Nota
 		Page<Sale> result = repository.findAll(pageable);
 		return result.map(x -> new SaleDTO(x));	
+	}
+	
+	@Transactional(readOnly = true)
+	public List<SaleSumDTO> amountGroupedBySeller() {
+		return repository.amountGroupedBySeller();
 	}
 }
 
