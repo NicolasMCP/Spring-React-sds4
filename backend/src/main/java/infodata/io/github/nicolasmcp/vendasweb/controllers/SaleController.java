@@ -15,7 +15,7 @@ import infodata.io.github.nicolasmcp.vendasweb.dto.SaleSumDTO;
 import infodata.io.github.nicolasmcp.vendasweb.services.SaleService;
 
 @RestController
-@RequestMapping(value = "/sale")
+@RequestMapping(value = "/sales")
 public class SaleController {
 
 	@Autowired
