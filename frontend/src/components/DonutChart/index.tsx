@@ -24,12 +24,6 @@ const DonutChart = () => {
             });
     }, [])
 
-
-    //const mockData = {
-    //    series: [5017, 45961, 55421, 60000, 17017],
-    //    labels: ['Alexandra Ortiz', 'Nícolas Ramos', 'Paola da Silva', 'Manoel Alcantara', 'Petrusca Nonnia']
-    //}
-
     const options = {
         legend: {
             show: true
