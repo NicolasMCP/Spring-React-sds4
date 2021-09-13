@@ -4,7 +4,7 @@
 
 ***```Programa GNU GPL```*** usando Java, TypeScript, ProgreSQL, H2, Spring Boot, React.  
 
-```Visto o Heroku estar sendo usado na versão gratuita, é normal que ocorra uma demora de 1 ou 2 minutos na primerira vez que entra no ***Painel de Vendas***```
+```Visto o Heroku estar sendo usado na versão gratuita, é normal que ocorra uma demora de 1 ou 2 minutos na primerira vez que entra no ```***```Painel de Vendas```***
 
 ### Link App: &nbsp; [VendasWeb](https://vendasweb-nicolasmcp.netlify.app/) &nbsp;  &nbsp;  &nbsp; Link Código: &nbsp; [frontend](https://github.com/NicolasMCP/Spring-React-sds4/tree/main/frontend) &nbsp;  &nbsp;  &nbsp; Link Código: &nbsp; [backend](https://github.com/NicolasMCP/Spring-React-sds4/tree/main/backend)
 
